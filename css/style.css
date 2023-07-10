@@ -22,7 +22,7 @@ basic
 ---------------------------------------------------------------------*/
 
 body {
-     color: #666666;
+     color: #59703a;
      font-size: 14px;
      font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
@@ -162,7 +162,7 @@ img {
 }
 
 .form-control:focus {
-     border-color: #ffffff !important;
+     border-color: #f1ebdafff !important;
      box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
 }
 
@@ -200,7 +200,7 @@ button {
 .titlepage::before {
      content: "";
      position: absolute;
-     border: #fff solid 5px;
+     border: #f1ebda solid 5px;
      border-width: 5px;
      width: 80px;
      z-index: 999;
@@ -214,13 +214,13 @@ button {
      font-size: 45px;
      font-weight: bold;
      line-height: 50px;
-     color: #323232;
+     color: #59703a;
 }
 
 .read_more {
      display: inline-block;
      background: #6dcff6;
-     color: #fff;
+     color: #f1ebda;
      max-width: 215px;
      height: 61px;
      line-height: 61px;
@@ -233,7 +233,7 @@ button {
 
 .read_more:hover {
      background: #0e0b01;
-     color: #fff;
+     color: #f1ebda;
      transition: ease-in all 0.5s;
 }
 
@@ -271,7 +271,7 @@ loader
 .loader_bg {
      position: fixed;
      z-index: 9999999;
-     background: #fff;
+     background: #f1ebda;
      width: 100%;
      height: 100%;
 }
@@ -318,7 +318,7 @@ menu section
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0px 30px;
-     color: #fff;
+     color: #f1ebda;
      font-size: 17px;
      line-height: 20px;
      font-weight: 400;
@@ -326,14 +326,14 @@ menu section
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #fff;
+     color: #f1ebda;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #fff;
+     color: #f1ebda;
 }
 
 .di_no {
@@ -358,11 +358,11 @@ ul.email li:nth-child(2) {
 
 ul.email li a {
      font-size: 17px;
-     color: #fff;
+     color: #f1ebda;
 }
 
 ul.email li i {
-     color: #fff;
+     color: #f1ebda;
      font-size: 19px;
 }
 
@@ -391,7 +391,7 @@ ul.email li i {
 
 #myCarousel .carousel-indicators li {
      cursor: pointer;
-     background: #fff;
+     background: #f1ebda;
      border-radius: 40px;
      width: 22px;
      height: 22px;
@@ -415,7 +415,7 @@ ul.email li i {
 }
 
 .banner_main .bluid h1 {
-     color: #fff;
+     color: #f1ebda;
      font-size: 100px;
      line-height: 110px;
      font-weight: bold;
@@ -423,7 +423,7 @@ ul.email li i {
 }
 
 .banner_main .bluid p {
-     color: #fff;
+     color: #f1ebda;
      line-height: 25px;
      font-weight: 500;
      padding-bottom: 50px;
@@ -432,12 +432,12 @@ ul.email li i {
 
 .banner_main .bluid .read_more {
      margin-right: 8px;
-     background: #fff;
+     background: #f1ebda;
      color: #000;
 }
 
 .banner_main .bluid .read_more:hover {
-     color: #fff;
+     color: #f1ebda;
      background: #0e0b01;
 }
 
@@ -445,7 +445,7 @@ ul.email li i {
 /** we_do **/
 
 .we_do {
-     background: #fff;
+     background: #f1ebda;
      padding: 90px 0 190px 0;
 }
 
@@ -506,7 +506,7 @@ ul.email li i {
 
 #we1 a.carousel-control-next,
 #we1 a.carousel-control-prev {
-     background: #ffffff;
+     background: #f1ebdafff;
      width: 67px;
      height: 59px;
      top: 109%;
@@ -529,7 +529,7 @@ ul.email li i {
 #we1 a.carousel-control-prev:focus,
 #we1 a.carousel-control-prev:hover {
      background: #464646;
-     color: #fff;
+     color: #f1ebda;
      opacity: 1;
 }
 
@@ -548,7 +548,7 @@ ul.email li i {
 }
 
 .about .titlepage::before {
-     border: #fff solid 5px;
+     border: #f1ebda solid 5px;
 }
 
 .about .titlepage {
@@ -557,13 +557,13 @@ ul.email li i {
 }
 
 .about .titlepage h2 {
-     color: #fff;
+     color: #f1ebda;
 }
 
 .about .titlepage p {
      line-height: 28px;
      padding-top: 20px;
-     color: #fff;
+     color: #f1ebda;
      font-size: 17px;
 }
 
@@ -576,7 +576,7 @@ ul.email li i {
 .portfolio {
      padding-top: 90px;
      padding-bottom: 90px;
-     background: #fff;
+     background: #f1ebda;
 }
 
 .portfolio .titlepage::before {
@@ -618,7 +618,7 @@ ul.email li i {
      transition: ease-in all 0.5s;
      bottom: 0;
      height: 0;
-     background: #fff;
+     background: #f1ebda;
      overflow: initial;
 }
 
@@ -630,7 +630,7 @@ ul.email li i {
 }
 
 .li_icon a {
-     background: #fff;
+     background: #f1ebda;
      width: 60px;
      height: 60px;
      border-radius: 50px;
@@ -643,7 +643,7 @@ ul.email li i {
 
 .li_icon a:hover {
      background: #0f1012;
-     color: #fff;
+     color: #f1ebda;
 }
 
 .portfolio_text h3 {
@@ -680,7 +680,7 @@ ul.email li i {
 
 .chose {
      padding: 90px 0 60px 0;
-     background: #323232;
+     background: #59703a;
 }
 
 .chose .titlepage::before {
@@ -689,11 +689,11 @@ ul.email li i {
 }
 
 .chose .titlepage h2 {
-     color: #fff;
+     color: #f1ebda;
 }
 
 .chose.chose .titlepage p {
-     color: #fff;
+     color: #f1ebda;
      padding-top: 15px;
 }
 
@@ -703,7 +703,7 @@ ul.email li i {
 
 .chose_box h3 {
      padding-top: 20px;
-     color: #fff;
+     color: #f1ebda;
      font-weight: bold;
      font-size: 30px;
      line-height: 35px;
@@ -711,7 +711,7 @@ ul.email li i {
 
 .chose_box strong {
      display: block;
-     color: #fff;
+     color: #f1ebda;
      font-weight: bold;
      font-size: 48px;
      line-height: 60px;
@@ -719,8 +719,8 @@ ul.email li i {
 }
 
 .chose_box .read_more {
-     background: #fff;
-     color: #323232;
+     background: #f1ebda;
+     color: #59703a;
      max-width: 176px;
      line-height: 47px;
      height: 47px;
@@ -728,7 +728,7 @@ ul.email li i {
 
 .chose_box .read_more:hover {
      background: #0e0b01;
-     color: #fff;
+     color: #f1ebda;
 }
 
 
@@ -754,7 +754,7 @@ ul.email li i {
      margin-bottom: 25px;
      width: 100%;
      height: 71px;
-     background: #fff;
+     background: #f1ebda;
      color: #888888;
      font-size: 16px;
      font-weight: normal;
@@ -764,7 +764,7 @@ ul.email li i {
      border: #d2d2d3 solid 1px;
      margin-bottom: 25px;
      width: 100%;
-     background: #fff;
+     background: #f1ebda;
      color: #888888;
      font-size: 18px;
      font-weight: normal;
@@ -776,9 +776,9 @@ ul.email li i {
 .main_form .send_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #323232;
+     background-color: #59703a;
      text-transform: uppercase;
-     color: #fff;
+     color: #f1ebda;
      padding: 25px 0px;
      max-width: 252px;
      width: 100%;
@@ -790,7 +790,7 @@ ul.email li i {
 .main_form .send_btn:hover {
      background-color: #464646c7;
      transition: ease-in all 0.5s;
-     color: #fff;
+     color: #f1ebda;
 }
 
 #request *::placeholder {
@@ -848,7 +848,7 @@ ul.email li i {
 
 #clientsl a.carousel-control-next,
 #clientsl a.carousel-control-prev {
-     background: #ffffff;
+     background: #f1ebdafff;
      width: 67px;
      height: 59px;
      top: 105%;
@@ -871,7 +871,7 @@ ul.email li i {
 #clientsl a.carousel-control-prev:focus,
 #clientsl a.carousel-control-prev:hover {
      background: #252525;
-     color: #fff;
+     color: #f1ebda;
      opacity: 1;
 }
 
@@ -907,7 +907,7 @@ ul.email li i {
      background: #151515;
      height: 66px;
      width: 100%;
-     color: #fff;
+     color: #f1ebda;
      font-size: 17px;
      text-transform: uppercase;
      font-weight: bold;
@@ -915,13 +915,13 @@ ul.email li i {
 }
 
 .subs_btn:hover {
-     background: #fff;
+     background: #f1ebda;
      color: #151515;
      transition: ease-in all 0.5s;
 }
 
 .Informa h3 {
-     color: #ffffff;
+     color: #f1ebdafff;
      font-size: 23px;
      font-weight: bold;
      line-height: 21px;
@@ -933,7 +933,7 @@ ul.email li i {
 .Informa li {
      font-size: 17px;
      line-height: 37px;
-     color: #ffffff;
+     color: #f1ebdafff;
 }
 
 .Informa li a:hover {
@@ -941,7 +941,7 @@ ul.email li i {
 }
 
 .helpful ul li a {
-     color: #fff;
+     color: #f1ebda;
      font-size: 17px;
      line-height: 30px;
 }
@@ -964,7 +964,7 @@ ul.social_icon li:last-child {
 }
 
 ul.social_icon li a {
-     color: #fff;
+     color: #f1ebda;
      display: inline-block;
      text-align: center;
      line-height: 33px;
@@ -979,7 +979,7 @@ ul.social_icon li a:hover {
 }
 
 .conta ul li a {
-     color: #ffffff;
+     color: #f1ebdafff;
 }
 
 .conta ul li a i {
@@ -1002,7 +1002,7 @@ ul.social_icon li a:hover {
 }
 
 .copyright a:hover {
-     color: #fff;
+     color: #f1ebda;
 }
 
 
