@@ -540,7 +540,8 @@ ul.email li i {
 /** about **/
 
 .about {
-     background: url(../images/about_bg.jpg);
+     background: #f1ebda;
+     /* background: url(../images/about_bg.jpg); */
      background-position: center;
      background-repeat: no-repeat;
      height: 100vh;
@@ -557,7 +558,7 @@ ul.email li i {
 }
 
 .about .titlepage h2 {
-     color: #f1ebda;
+     color: #59703a;
 }
 
 .about .titlepage p {
