@@ -887,19 +887,7 @@ ul.email li i {
      padding-top: 90px;
 }
 
-.link-container {
-     /* Set a fixed width or use other layout properties as needed */
-     max-width: 100%;
-     overflow: hidden;
-     text-overflow: ellipsis;
-     white-space: nowrap;
-   }
-   
-   .link {
-     /* Additional styling for the link */
-     /* You can also style the link to indicate it's truncated or wrapped */
-   }
-   
+
 
 .newslatter_form {
      display: flex;
