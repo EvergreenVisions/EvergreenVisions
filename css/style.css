@@ -463,12 +463,15 @@ ul.email li i {
      transition: ease-in all 0.5s;
 }
 
+
 .we_box {
      border: #e6e7e8 solid 1px;
      transition: ease-in all 0.5s;
      padding: 40px;
      margin-bottom: 26px;
 }
+
+
 
 .we_box h3 {
      color: #292929;
@@ -923,6 +926,11 @@ ul.email li i {
      transition: ease-in all 0.5s;
 }
 
+.Informa h1 {
+     /* color: #c4c5ac; */
+     font-size: 50px;
+}
+
 .Informa h3 {
      color: #f3ebdb;
      font-size: 23px;
@@ -932,6 +940,7 @@ ul.email li i {
      margin-top: 26px;
      text-transform: uppercase;
 }
+
 
 .Informa li {
      font-size: 17px;
