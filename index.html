@@ -21,7 +21,11 @@
       <link rel="stylesheet" href="css/responsive.css">
       <!-- awesome fontfamily -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+      <script>
+         document.addEventListener('DOMContentLoaded', (event) => {
+           history.replaceState(null, null, location.pathname.replace(/\.html$/, ''));
+         });
+       </script> 
       <style>
          body {
            background-color: #f1ebda;
@@ -263,6 +267,7 @@
                   </div>
                </div>
             </div>
+         </div>
       <!-- end about -->
       <!-- contact -->
       <section id="Meet With Us">
@@ -309,6 +314,7 @@
                            <li><a href="#What We Do">What We Do</a></li>
                            <li><a href="#Our Team">Our Team</a></li>
                            <li><a href="#Meet With Us">Meet with us</a></li>
+                           <li><a href="policy.html">Privacy Policy</a></li>
                         </ul>
                      </div>
                   </div>
