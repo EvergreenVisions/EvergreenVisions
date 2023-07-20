@@ -36,11 +36,24 @@
    <!-- body -->
    <body class="main-layout">
 
-      <!-- Calendly badge widget begin -->
-      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-      <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-      <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/contact-evergreenvisions/consulting?hide_gdpr_banner=1&text_color=546933&primary_color=546933', text: 'Schedule a Free Consultation', color: '#546933', textColor: '#f1ebda', branding: true }); }</script>
-      <!-- Calendly badge widget end -->
+      <div class="calendly-widget-container">
+         <!-- Calendly badge widget begin -->
+         <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+         <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+         <script type="text/javascript">
+           window.onload = function() { 
+             Calendly.initBadgeWidget({
+               url: 'https://calendly.com/contact-evergreenvisions/consulting?hide_gdpr_banner=1&text_color=546933&primary_color=546933',
+               text: 'Schedule a Free Consultation',
+               color: '#546933',
+               textColor: '#f1ebda',
+               branding: true 
+             });
+           }
+         </script>
+         <!-- Calendly badge widget end -->
+       </div>
+       
 
       <!-- loader  -->
       <!-- <div class="loader_bg"> -->
@@ -107,8 +120,9 @@
                            <div class="container-fluid">
                               <div class="carousel-caption relative">
                                  <div class="bluid">
-                                    <h1>Evergreen<br>Visions </h1>
-                                    <p>Cracking the Code for Limitless Growth</p>
+                                    <!-- <h2>Evergreen</h2> -->
+                                    <h1>Evergreen<br>Visions</h1>
+                                    <p>Cracking the Code<br>For Limitless Growth</p>
                                     <a class="read_more" href="#Meet With Us">Free Consultation</a><a class="read_more" href="#What We Do">About</a>
                                  </div>
                               </div>

@@ -307,6 +307,12 @@ header
 }
 
 
+.calendly-widget-container {
+     max-width: 100%; /* Change this value to whatever maximum width you want */
+     margin: 0 auto; /* This will center the container if it's less than the full width of its parent */
+   }
+
+
 /*--------------------------------------------------------------------- 
 menu section
 ---------------------------------------------------------------------*/
@@ -415,6 +421,8 @@ ul.email li i {
 }
 
 .banner_main .bluid h1 {
+     text-align: center;
+     padding-right: 60%;
      color: #f1ebda;
      font-size: 100px;
      line-height: 110px;
@@ -422,12 +430,21 @@ ul.email li i {
      padding-bottom: 25px;
 }
 
-.banner_main .bluid p {
+/* .banner_main .bluid h2 {
      color: #f1ebda;
-     line-height: 25px;
+     font-size: 70px;
+     line-height: 110px;
+     font-weight: bold;
+     } */
+
+.banner_main .bluid p {
+     text-align: center;
+     padding-right: 60%;
+     color: #f1ebda;
+     line-height: 35px;
      font-weight: 500;
      padding-bottom: 50px;
-     font-size: 17px;
+     font-size: 25px;
 }
 
 .banner_main .bluid .read_more {
