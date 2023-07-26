@@ -477,6 +477,7 @@ ul.email li i {
 
 /* Hover Color for Box */
 #bo_ho:hover {
+     /* border: #546933 solid 1px; */
      border: #f1ebda solid 1px;
      transition: ease-in all 0.5s;
 }
