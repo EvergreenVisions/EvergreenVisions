@@ -475,14 +475,15 @@ ul.email li i {
      padding: 0;
 }
 
+/* Hover Color for Box */
 #bo_ho:hover {
-     border: #292a2c solid 1px;
+     border: #f1ebda solid 1px;
      transition: ease-in all 0.5s;
 }
 
 
 .we_box {
-     border: #e6e7e8 solid 1px;
+     border: #f1ebda solid 1px;
      transition: ease-in all 0.5s;
      padding: 40px;
      margin-bottom: 26px;
