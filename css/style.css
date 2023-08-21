@@ -505,6 +505,15 @@ ul.email li i {
      float: right;
 }
 
+.we_box h4 {
+     color: #292929;
+     font-size: 18px;
+     font-weight: bold;
+     line-height: 25px;
+     text-transform: uppercase;
+     padding-top: 25px;
+}
+
 .we_box p {
      color: #292929;
      padding-top: 25px;
