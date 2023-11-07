@@ -522,12 +522,13 @@ ul.email li i {
 }
 
 .we_box .read_more {
+     align-items: center;
      max-width: 131px;
      height: 41px;
      line-height: 41px;
      margin: 0 auto;
      display: block;
-     margin-right: 0;
+     /* margin-right: 60%; */
      background: #464646;
 }
 
